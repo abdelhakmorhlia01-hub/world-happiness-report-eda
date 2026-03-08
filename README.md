@@ -43,49 +43,31 @@ The dataset includes six contributing factors: GDP per Capita, Family Support, L
 
 ## 📁 Project Structure
 
-world-happiness-report-eda/
+### ***world-happiness-report-eda/***
 
-│
+- **aggregations/**         
+  
+                 - combined_world_happiness_data.csv
+                 - country_avg.csv
+                 - gdp_category_happiness.csv
+                 - yearly_avg.csv
 
-├── aggregations
+- **data/**                                 
 
-│   ├── combined_world_happiness_data.csv
+                 - 2015.csv
+                 - 2016.csv
+                 - 2017.csv
+                 - 2018.csv
+                 - 2019.csv
 
-│   ├── country_avg.csv
+- **world_happiness_eda.ipynb**                
 
-│   ├── gdp_category_happiness.csv
+- **dashboard/**
 
-│   └── yearly_avg.csv
+                - page1.png                   # Dashboard screenshot — overview
+                - page2.png                   # Dashboard screenshot — correlations
 
-│   
-├── data/            # Raw CSV files (2015–2019)
-
-│   ├── 2015.csv
-
-│   ├── 2016.csv
-
-│   ├── 2017.csv
-
-│   ├── 2018.csv
-
-│   └── 2019.csv
-│
-
-├── notebooks/
-
-│   └── world_happiness_eda.ipynb  # Main analysis notebook
-
-│
-
-├── dashboard/
-
-│   ├── page1.png            # Dashboard screenshot — overview
-
-│   └── page2.png            # Dashboard screenshot — correlations
-
-│
-
-└── README.md
+- **README.md**
 
 ## ▶️ How to Run
 
@@ -163,4 +145,5 @@ LinkedIn: https://www.linkedin.com/in/abdelhak-morhlia-41366a396/
 # __
 
 If you found this project useful, feel free to ⭐ star the repository!Compartir
+
 
